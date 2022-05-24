@@ -1,0 +1,23 @@
+{
+  "name": "extremely-simple-express-app",
+  "version": "1.0.0",
+  "description": "An extremely simple Hello Word! app on Express.js and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "express.js",
+    "node.js",
+    "hello-word"
+  ],
+  "author": "Sebastian A. Tamashiro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.5.0",
+    "mongoose": "^6.3.3"
+  }
+}
